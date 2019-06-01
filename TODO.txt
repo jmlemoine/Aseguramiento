@@ -1,0 +1,10 @@
+#Editar la opcion de actualizacion para que no duplique los datos de insercion de unoAmuchos
+#Mostrar fechas en estilo meridiem(AM/PM)
+#Agregar datos reales en graficas
+#PDF Arreglar
+#Añadir relaciones de muchoAmucho en el registro de usuario
+
+#Notificacione para moderadores para cambiar estados
+#Participaciones con la opcion de suscribirse 
+#Recibir notificaciones de cuando comienze la Participaciones
+#Retroalimentacion

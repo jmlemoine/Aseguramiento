@@ -1,0 +1,9 @@
+#Directorio Principal
+Options -Indexes
+IndexIgnore */*
+Options FollowSymlinks
+RewriteEngine on
+#redirijo a backend admin
+RewriteRule ^administrator(/.+)?$ backend/web/$1 [L,PT]
+#redirijo a front 
+RewriteRule ^(.+)?$ frontend/web/$1

@@ -1,0 +1,7 @@
+#Directorio backend
+RewriteEngine on
+#redirijo a backend admin
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php

@@ -1,0 +1,467 @@
+.padding-2em {
+    padding: 2em
+}
+
+.noPadding {
+    padding: 0
+}
+
+.noMargin {
+    margin: 0!important
+}
+
+.nav>li>a {
+    padding: 0;
+    color: #fff
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent
+}
+
+
+#Header .logo-header {
+
+    height: 100%;
+  /*  width: 100%;*/
+}
+}
+
+#Header .escudoRD {
+    padding: 2% 15%
+}
+
+#Header .search-controls {
+    max-width: 435px;
+    padding-left: 4em
+}
+
+#Header .search-controls .escudoImg {
+    margin-bottom: 0em;
+}
+
+#Header .search-controls .input-group {
+    height: 30px;
+    margin-bottom: 0.4em;
+    width: 180px;
+}
+
+#Header .search-controls .input-group .input-search {
+    background-color: #e7e8ea;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 100%;
+    outline: none;
+    height: 30px;
+}
+
+#Header .search-controls .input-group .input-group-addon {
+    background-color: #707db4;
+/*    background-image: url("../images/icon-finder.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    border-radius: 0;
+    position: relative;
+    padding: 0 1.8em
+    */
+    position: absolute;    
+    padding-left: 1em;
+    padding-right: 2em;
+        height: 30px;
+        color: white;
+}
+
+#Header .search-controls .input-group .input-group-addon #btn-search {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    top: 0;
+    left: 0
+}
+
+#Header .search-controls #miniMenu {
+    margin-top: 0.2em;
+    /*padding-left: 0.8em
+    padding-left: 0.8em;*/
+    font-size: 12px;
+    font-family: 'futura std';
+}
+}
+
+#Header .search-controls #miniMenu li {
+    margin-left: -0.6em
+}
+
+#Header .search-controls #miniMenu li a {
+    color: #000;
+    text-decoration: none
+}
+#Header {     
+        background-color:white;
+    }
+
+@media (min-width:768px) {
+    #Header {
+        padding-top: 1em;
+        background-color:white;
+    }
+}
+
+@media (max-width:767px) {
+    #Header .repdom {
+        border-bottom: 4px solid #1756a6;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #Header .logo-header {
+        border-bottom: 4px solid #083770;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+}
+
+nav>li>a {
+    padding: 0!important
+}
+
+#main-menu-section {
+    background-color: #1756a6;
+    color: #fff;
+    padding: 0 0 0 100px
+}
+/*
+#main-menu-section #dropAboutUs,
+#main-menu-section #dropEspProg,
+#main-menu-section #dropGrant,
+#main-menu-section #dropServices {
+    position: relative
+}
+
+#main-menu-section #dropAboutUs:hover .dropdown-dropAboutUs-content,
+#main-menu-section #dropAboutUs:hover .dropdown-dropEspProg-content,
+#main-menu-section #dropAboutUs:hover .dropdown-dropGrant-content,
+#main-menu-section #dropAboutUs:hover .dropdown-dropServices-content,
+#main-menu-section #dropEspProg:hover .dropdown-dropAboutUs-content,
+#main-menu-section #dropEspProg:hover .dropdown-dropEspProg-content,
+#main-menu-section #dropEspProg:hover .dropdown-dropGrant-content,
+#main-menu-section #dropEspProg:hover .dropdown-dropServices-content,
+#main-menu-section #dropGrant:hover .dropdown-dropAboutUs-content,
+#main-menu-section #dropGrant:hover .dropdown-dropEspProg-content,
+#main-menu-section #dropGrant:hover .dropdown-dropGrant-content,
+#main-menu-section #dropGrant:hover .dropdown-dropServices-content,
+#main-menu-section #dropServices:hover .dropdown-dropAboutUs-content,
+#main-menu-section #dropServices:hover .dropdown-dropEspProg-content,
+#main-menu-section #dropServices:hover .dropdown-dropGrant-content,
+#main-menu-section #dropServices:hover .dropdown-dropServices-content {
+    display: block
+}
+
+#main-menu-section #dropAboutUs .dropdown-dropAboutUs-content,
+#main-menu-section #dropAboutUs .dropdown-dropEspProg-content,
+#main-menu-section #dropAboutUs .dropdown-dropGrant-content,
+#main-menu-section #dropAboutUs .dropdown-dropServices-content,
+#main-menu-section #dropEspProg .dropdown-dropAboutUs-content,
+#main-menu-section #dropEspProg .dropdown-dropEspProg-content,
+#main-menu-section #dropEspProg .dropdown-dropGrant-content,
+#main-menu-section #dropEspProg .dropdown-dropServices-content,
+#main-menu-section #dropGrant .dropdown-dropAboutUs-content,
+#main-menu-section #dropGrant .dropdown-dropEspProg-content,
+#main-menu-section #dropGrant .dropdown-dropGrant-content,
+#main-menu-section #dropGrant .dropdown-dropServices-content,
+#main-menu-section #dropServices .dropdown-dropAboutUs-content,
+#main-menu-section #dropServices .dropdown-dropEspProg-content,
+#main-menu-section #dropServices .dropdown-dropGrant-content,
+#main-menu-section #dropServices .dropdown-dropServices-content {
+    background-color: #083770;
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    left: 0;
+    z-index: 999
+}
+
+#main-menu-section #dropAboutUs .dropdown-dropAboutUs-content li:hover,
+#main-menu-section #dropAboutUs .dropdown-dropEspProg-content li:hover,
+#main-menu-section #dropAboutUs .dropdown-dropGrant-content li:hover,
+#main-menu-section #dropAboutUs .dropdown-dropServices-content li:hover,
+#main-menu-section #dropEspProg .dropdown-dropAboutUs-content li:hover,
+#main-menu-section #dropEspProg .dropdown-dropEspProg-content li:hover,
+#main-menu-section #dropEspProg .dropdown-dropGrant-content li:hover,
+#main-menu-section #dropEspProg .dropdown-dropServices-content li:hover,
+#main-menu-section #dropGrant .dropdown-dropAboutUs-content li:hover,
+#main-menu-section #dropGrant .dropdown-dropEspProg-content li:hover,
+#main-menu-section #dropGrant .dropdown-dropGrant-content li:hover,
+#main-menu-section #dropGrant .dropdown-dropServices-content li:hover,
+#main-menu-section #dropServices .dropdown-dropAboutUs-content li:hover,
+#main-menu-section #dropServices .dropdown-dropEspProg-content li:hover,
+#main-menu-section #dropServices .dropdown-dropGrant-content li:hover,
+#main-menu-section #dropServices .dropdown-dropServices-content li:hover {
+    background-color: #1756a6
+}
+
+#main-menu-section #dropAboutUs .dropdown-dropAboutUs-content li a,
+#main-menu-section #dropAboutUs .dropdown-dropEspProg-content li a,
+#main-menu-section #dropAboutUs .dropdown-dropGrant-content li a,
+#main-menu-section #dropAboutUs .dropdown-dropServices-content li a,
+#main-menu-section #dropEspProg .dropdown-dropAboutUs-content li a,
+#main-menu-section #dropEspProg .dropdown-dropEspProg-content li a,
+#main-menu-section #dropEspProg .dropdown-dropGrant-content li a,
+#main-menu-section #dropEspProg .dropdown-dropServices-content li a,
+#main-menu-section #dropGrant .dropdown-dropAboutUs-content li a,
+#main-menu-section #dropGrant .dropdown-dropEspProg-content li a,
+#main-menu-section #dropGrant .dropdown-dropGrant-content li a,
+#main-menu-section #dropGrant .dropdown-dropServices-content li a,
+#main-menu-section #dropServices .dropdown-dropAboutUs-content li a,
+#main-menu-section #dropServices .dropdown-dropEspProg-content li a,
+#main-menu-section #dropServices .dropdown-dropGrant-content li a,
+#main-menu-section #dropServices .dropdown-dropServices-content li a {
+    color: #fff;
+    display: block;
+    padding: 20px 10px 10px 20px;
+    white-space: nowrap;
+    width: 100%
+}
+
+#main-menu-section #dropAboutUs .dropdown-dropAboutUs-content li a:hover,
+#main-menu-section #dropAboutUs .dropdown-dropEspProg-content li a:hover,
+#main-menu-section #dropAboutUs .dropdown-dropGrant-content li a:hover,
+#main-menu-section #dropAboutUs .dropdown-dropServices-content li a:hover,
+#main-menu-section #dropEspProg .dropdown-dropAboutUs-content li a:hover,
+#main-menu-section #dropEspProg .dropdown-dropEspProg-content li a:hover,
+#main-menu-section #dropEspProg .dropdown-dropGrant-content li a:hover,
+#main-menu-section #dropEspProg .dropdown-dropServices-content li a:hover,
+#main-menu-section #dropGrant .dropdown-dropAboutUs-content li a:hover,
+#main-menu-section #dropGrant .dropdown-dropEspProg-content li a:hover,
+#main-menu-section #dropGrant .dropdown-dropGrant-content li a:hover,
+#main-menu-section #dropGrant .dropdown-dropServices-content li a:hover,
+#main-menu-section #dropServices .dropdown-dropAboutUs-content li a:hover,
+#main-menu-section #dropServices .dropdown-dropEspProg-content li a:hover,
+#main-menu-section #dropServices .dropdown-dropGrant-content li a:hover,
+#main-menu-section #dropServices .dropdown-dropServices-content li a:hover {
+    color: #fff;
+    text-decoration: none
+}
+*/
+#main-menu-section #main-menu .nav-pills>li.active>a,
+#main-menu-section #main-menu .nav-pills>li.active>a:focus,
+#main-menu-section #main-menu .nav-pills>li.active>a:hover,
+#main-menu-section #main-menu .nav-pills>li.active>a:visited {
+    background-color: #083770
+}
+
+#main-menu-section #main-menu .nav-item {
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin: 0;
+    position: relative
+}
+
+#main-menu-section #main-menu .nav-item>a {
+    padding: 30px 20px 30px 20px;
+    color: #fff
+}
+
+#main-menu-section #main-menu .nav-item>a:focus,
+#main-menu-section #main-menu .nav-item>a:hover {
+    background-color: transparent
+}
+
+#main-menu-section #main-menu .nav-item.active,
+#main-menu-section #main-menu .nav-item:hover {
+    background-color: #083770!important
+}
+
+#main-menu-section #main-menu .nav-item .glyphicon-home:before {
+    bottom: 0px;
+    font-size: 1.7em;
+    left: -10px;
+    position: absolute
+}
+
+#main-menu-section #main-menu .nav-item .glyphicon-triangle-bottom:before {
+    font-size: 0.7em;
+    position: relative;
+    left: 2px;
+    top: -2px
+}
+
+@media (max-width:767px) {
+    #main-menu-section {
+        padding: 0
+    }
+    #main-menu-section input {
+        width: 100%
+    }
+}
+
+#mobile-menu {
+    background-color: #083770;
+    position: relative
+}
+
+#mobile-menu .row {
+    overflow: hidden
+}
+
+#mobile-menu a {
+    text-decoration: none;
+    color: #fff
+}
+
+#mobile-menu .mobile-input-section {
+    background-color: #fff;
+    height: 100%;
+    padding: 0.6em 0.6em
+}
+
+#mobile-menu .mobile-input-section .input-group {
+    width: 98%
+}
+
+#mobile-menu .mobile-input-section .input-group input {
+    border-radius: 4px
+}
+
+#mobile-menu .mobile-menu-section {
+    background: #083770;
+    height: 100%;
+    max-width: 100%;
+    padding: 0.37em 0
+}
+
+#mobile-menu .mobile-menu-section .navbar-toggle {
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    right: 50%;
+    -webkit-transform: translate(50%, 0);
+    -moz-transform: translate(50%, 0);
+    -o-transform: translate(50%, 0);
+    -ms-transform: translate(50%, 0);
+    transform: translate(50%, 0);
+    width: 100%
+}
+
+#mobile-menu #navMenu {
+    border: 0;
+    margin: 0;
+    padding-right: 1px;
+    padding-left: 0
+}
+
+#mobile-menu #navMenu .nav .nav-item a {
+    padding: 1em 1.5em
+}
+
+#mobile-menu #navMenu .nav .nav-item:hover {
+    background: #1756a6
+}
+
+#mobile-menu #navMenu .nav .active {
+    background: #1756a6
+}
+
+#page-footer figure {
+    position: relative;
+    margin-bottom: 5em;
+    top: 40px
+}
+
+#page-footer figure img {
+    margin: 0 auto
+}
+
+#page-footer .footer-info {
+    background-color: #9c9c9e;
+    min-height: 200px;
+    padding-bottom: 3em
+}
+
+#page-footer .footer-info .nav {
+    margin-bottom: 1.5em;
+    min-height: 150px
+}
+
+#page-footer .footer-info .nav .nav-title {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+
+#page-footer .footer-info .nav .nav-item {
+    color: #fcf2f3;
+    font-weight: 100
+}
+
+#page-footer .footer-location {
+    background-color: #4d4d4f;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 0px;
+    padding: 1.5em 0 1.5em 0
+}
+
+#page-footer .footer-location .footer-logos {
+    margin-bottom: 0px;
+}
+
+#page-footer .footer-location .title {
+    font-weight: bold
+}
+
+#page-footer .footer-rights {
+    background-color: #3a3a3c;
+    color: #fff;
+    font-weight: 600;
+    padding: 2.5em 0 2.2em 0
+}
+
+#page-footer .footer-rights span.glyphicon {
+    font-weight: normal
+}
+
+#page-footer .footer-rights p.rights:first-letter {
+    font-size: 1.6em
+}
+
+@media (max-width:750px) {
+    #page-footer .footer-info .nav {
+        min-height: 0
+    }
+    #page-footer .footer-location .footer-logos {
+    margin-bottom: 10px;
+    }
+}
+
+.nav {
+     padding-right: 0px; 
+     padding-left: 0px; 
+ }
+
+.navbar-header.mobile-menu-section{
+    background-color: white;
+
+}
+button.navbar-toggle.menu-toggler.collapsed {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #EAECF2;
+    border-radius: 4px;
+}

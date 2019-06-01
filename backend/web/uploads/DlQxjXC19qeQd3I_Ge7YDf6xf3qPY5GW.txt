@@ -1,0 +1,14 @@
+ Dim number1 As Integer = 50
+        Dim number2 As Integer = 0
+        Dim StartTime, EndTime, TotalTime As Double
+        StartTime = Timer
+        Try
+            Console.WriteLine(number1 \ number2)
+        Catch e As DivideByZeroException
+            Console.WriteLine("Division entre 0.", number1)
+        End Try
+        EndTime = Timer
+        TotalTime = (EndTime - StartTime)
+        Console.WriteLine(TotalTime)
+
+

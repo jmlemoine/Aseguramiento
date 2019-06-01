@@ -1,0 +1,169 @@
+Host=localhost;Database=Rent;Username=postgres;Password=tommybg07;Port=3612
+
+ Dim bdProveedor As String = "Provider=Microsoft.Jet.OLEDB.4.0;"
+    Dim bdFuente As String = "Data Source= Rent car2.mdb"
+
+Dim bdProveedor As String = "Host=localhost;Database=Rent;Username=postgres;"
+    Dim bdFuente As String = "Password=tommybg07;Port=3612"
+
+User Id=postgres;Password=tommybg07;Host=localhost;
+Port=3612;Database=Rent;Persist Security Info=True
+
+
+User Id=postgres;Password=tommybg07;Host=localhost;Port=3612;Database=rent3;
+Persist Security Info=True;Initial Schema=public
+
+Rent_car2DataSet
+RentDataSet4
+
+Application Configuration file "App.config" is invalid. 'Password' is an unexpected token. Expecting white space. Line 9, position 138.
+
+4350
+OleDb
+Odbc
+
+Host=localhost;Database=Rent;Username=postgres;Password=tommybg07;Port=3612
+
+PostgreSQL 10
+
+Rent_car2DataSet
+RentDataSet
+
+'no existe la columna «fechacreacion»'
+Input string was not in a correct format.'
+
+
+Find all "Rent_car2DataSet", Subfolders, Find Results 1, Entire Solution, ""
+  E:\Rent car final.copia\WindowsApplication1\Cliente.rdlc(972):    <DataSource Name="Rent_car2DataSet">
+  E:\Rent car final.copia\WindowsApplication1\Cliente.rdlc(983):        <DataSourceName>Rent_car2DataSet</DataSourceName>
+  E:\Rent car final.copia\WindowsApplication1\Cliente.rdlc(1045):        <rd:DataSetName>Rent_car2DataSet</rd:DataSetName>
+  E:\Rent car final.copia\WindowsApplication1\Cliente.rdlc(1046):        <rd:SchemaPath>B:\Proyectos\WindowsApplication1\WindowsApplication1\Rent_car2DataSet.xsd</rd:SchemaPath>
+  E:\Rent car final.copia\WindowsApplication1\Factura.rdlc(766):    <DataSource Name="Rent_car2DataSet">
+  E:\Rent car final.copia\WindowsApplication1\Factura.rdlc(777):        <DataSourceName>Rent_car2DataSet</DataSourceName>
+  E:\Rent car final.copia\WindowsApplication1\Factura.rdlc(823):        <rd:DataSetName>Rent_car2DataSet</rd:DataSetName>
+  E:\Rent car final.copia\WindowsApplication1\Factura.rdlc(824):        <rd:SchemaPath>B:\Proyectos\WindowsApplication1\WindowsApplication1\Rent_car2DataSet.xsd</rd:SchemaPath>
+  E:\Rent car final.copia\WindowsApplication1\Menu.vb(146):        Me.FacturasTableAdapter.Fill(Me.Rent_car2DataSet.Facturas)
+  E:\Rent car final.copia\WindowsApplication1\Menu.vb(148):        Me.VehiculosTableAdapter.Fill(Me.Rent_car2DataSet.Vehiculos)
+  E:\Rent car final.copia\WindowsApplication1\Menu.vb(150):        Me.ClientesTableAdapter.Fill(Me.Rent_car2DataSet.Clientes)
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(31):        Me.Rent_car2DataSet = New WindowsApplication1.Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(212):        Me.ClientesTableAdapter = New WindowsApplication1.Rent_car2DataSetTableAdapters.ClientesTableAdapter()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(213):        Me.VehiculosTableAdapter = New WindowsApplication1.Rent_car2DataSetTableAdapters.VehiculosTableAdapter()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(214):        Me.FacturasTableAdapter = New WindowsApplication1.Rent_car2DataSetTableAdapters.FacturasTableAdapter()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(215):        Me.Rent_car2DataSet1 = New WindowsApplication1.Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(218):        CType(Me.Rent_car2DataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(240):        CType(Me.Rent_car2DataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(247):        Me.FacturasBindingSource.DataSource = Me.Rent_car2DataSet
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(249):        'Rent_car2DataSet
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(251):        Me.Rent_car2DataSet.DataSetName = "Rent_car2DataSet"
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(252):        Me.Rent_car2DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(257):        Me.VehiculosBindingSource.DataSource = Me.Rent_car2DataSet
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(262):        Me.ClientesBindingSource.DataSource = Me.Rent_car2DataSet
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2429):        'Rent_car2DataSet1
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2431):        Me.Rent_car2DataSet1.DataSetName = "Rent_car2DataSet"
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2432):        Me.Rent_car2DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2452):        CType(Me.Rent_car2DataSet, System.ComponentModel.ISupportInitialize).EndInit()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2481):        CType(Me.Rent_car2DataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2641):    Friend WithEvents Rent_car2DataSet As WindowsApplication1.Rent_car2DataSet
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2642):    Friend WithEvents ClientesTableAdapter As WindowsApplication1.Rent_car2DataSetTableAdapters.ClientesTableAdapter
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2645):    Friend WithEvents VehiculosTableAdapter As WindowsApplication1.Rent_car2DataSetTableAdapters.VehiculosTableAdapter
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2648):    Friend WithEvents FacturasTableAdapter As WindowsApplication1.Rent_car2DataSetTableAdapters.FacturasTableAdapter
+  E:\Rent car final.copia\WindowsApplication1\Menu.designer.vb(2675):    Friend WithEvents Rent_car2DataSet1 As Rent_car2DataSet
+  E:\Rent car final.copia\WindowsApplication1\Menu.resx(123):  <metadata name="Rent_car2DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  E:\Rent car final.copia\WindowsApplication1\Menu.resx(2382):  <metadata name="Rent_car2DataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.xsd(2):<xs:schema id="Rent_car2DataSet" targetNamespace="http://tempuri.org/Rent_car2DataSet.xsd" xmlns:mstns="http://tempuri.org/Rent_car2DataSet.xsd" xmlns="http://tempuri.org/Rent_car2DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.xsd(1317):  <xs:element name="Rent_car2DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Rent_car2DataSet" msprop:Generator_UserDSName="Rent_car2DataSet">
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(23): Global.System.Xml.Serialization.XmlRootAttribute("Rent_car2DataSet"),  _
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(25):Partial Public Class Rent_car2DataSet
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(281):        Dim cln As Rent_car2DataSet = CType(MyBase.Clone,Rent_car2DataSet)
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(442):        Me.DataSetName = "Rent_car2DataSet"
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(444):        Me.Namespace = "http://tempuri.org/Rent_car2DataSet.xsd"
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(548):        Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(899):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(1344):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(1789):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(2248):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(2707):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(3095):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(3483):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(3814):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(4145):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(4738):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(5331):            Dim ds As Rent_car2DataSet = New Rent_car2DataSet()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(9630):Namespace Rent_car2DataSetTableAdapters
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(9838):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.AdministradoresDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(9851):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.AdministradoresDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(9853):            Dim dataTable As Rent_car2DataSet.AdministradoresDataTable = New Rent_car2DataSet.AdministradoresDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(9861):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.AdministradoresDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(9868):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(10333):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.ClientesDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(10346):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.ClientesDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(10348):            Dim dataTable As Rent_car2DataSet.ClientesDataTable = New Rent_car2DataSet.ClientesDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(10356):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.ClientesDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(10363):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11047):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.Clientes__EliminadosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11060):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.Clientes__EliminadosDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11062):            Dim dataTable As Rent_car2DataSet.Clientes__EliminadosDataTable = New Rent_car2DataSet.Clientes__EliminadosDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11070):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.Clientes__EliminadosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11077):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11764):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.EmpleadosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11777):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.EmpleadosDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11779):            Dim dataTable As Rent_car2DataSet.EmpleadosDataTable = New Rent_car2DataSet.EmpleadosDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11787):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.EmpleadosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(11794):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(12492):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.Empleados_EliminadosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(12505):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.Empleados_EliminadosDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(12507):            Dim dataTable As Rent_car2DataSet.Empleados_EliminadosDataTable = New Rent_car2DataSet.Empleados_EliminadosDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(12515):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.Empleados_EliminadosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(12522):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13186):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.FacturasDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13199):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.FacturasDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13201):            Dim dataTable As Rent_car2DataSet.FacturasDataTable = New Rent_car2DataSet.FacturasDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13209):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.FacturasDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13216):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13780):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.Facturas_EliminadasDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13793):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.Facturas_EliminadasDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13795):            Dim dataTable As Rent_car2DataSet.Facturas_EliminadasDataTable = New Rent_car2DataSet.Facturas_EliminadasDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13803):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.Facturas_EliminadasDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(13810):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14338):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.ReservacionesDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14351):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.ReservacionesDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14353):            Dim dataTable As Rent_car2DataSet.ReservacionesDataTable = New Rent_car2DataSet.ReservacionesDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14361):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.ReservacionesDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14368):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14781):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.Reservaciones_EliminadasDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14794):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.Reservaciones_EliminadasDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14796):            Dim dataTable As Rent_car2DataSet.Reservaciones_EliminadasDataTable = New Rent_car2DataSet.Reservaciones_EliminadasDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14804):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.Reservaciones_EliminadasDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(14811):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(15365):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.VehiculosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(15378):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.VehiculosDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(15380):            Dim dataTable As Rent_car2DataSet.VehiculosDataTable = New Rent_car2DataSet.VehiculosDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(15388):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.VehiculosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(15395):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(16415):        Public Overridable Overloads Function Fill(ByVal dataTable As Rent_car2DataSet.Vehiculos_EliminadosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(16428):        Public Overridable Overloads Function GetData() As Rent_car2DataSet.Vehiculos_EliminadosDataTable
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(16430):            Dim dataTable As Rent_car2DataSet.Vehiculos_EliminadosDataTable = New Rent_car2DataSet.Vehiculos_EliminadosDataTable()
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(16438):        Public Overridable Overloads Function Update(ByVal dataTable As Rent_car2DataSet.Vehiculos_EliminadosDataTable) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(16445):        Public Overridable Overloads Function Update(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(17434):        Private Function UpdateUpdatedRows(ByVal dataSet As Rent_car2DataSet, ByVal allChangedRows As Global.System.Collections.Generic.List(Of Global.System.Data.DataRow), ByVal allAddedRows As Global.System.Collections.Generic.List(Of Global.System.Data.DataRow)) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(17543):        Private Function UpdateInsertedRows(ByVal dataSet As Rent_car2DataSet, ByVal allAddedRows As Global.System.Collections.Generic.List(Of Global.System.Data.DataRow)) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(17641):        Private Function UpdateDeletedRows(ByVal dataSet As Rent_car2DataSet, ByVal allChangedRows As Global.System.Collections.Generic.List(Of Global.System.Data.DataRow)) As Integer
+  E:\Rent car final.copia\WindowsApplication1\Rent_car2DataSet.Designer.vb(17765):        Public Overridable Function UpdateAll(ByVal dataSet As Rent_car2DataSet) As Integer
+  E:\Rent car final.copia\WindowsApplication1\vehiculo.rdlc(1534):    <DataSource Name="Rent_car2DataSet">
+  E:\Rent car final.copia\WindowsApplication1\vehiculo.rdlc(1545):        <DataSourceName>Rent_car2DataSet</DataSourceName>
+  E:\Rent car final.copia\WindowsApplication1\vehiculo.rdlc(1643):        <rd:DataSetName>Rent_car2DataSet</rd:DataSetName>
+  E:\Rent car final.copia\WindowsApplication1\vehiculo.rdlc(1644):        <rd:SchemaPath>B:\Proyectos\WindowsApplication1\WindowsApplication1\Rent_car2DataSet.xsd</rd:SchemaPath>
+  Matching lines: 119    Matching files: 8    Total files searched: 51
+
+
+width 46
+height 14
+
+begin1
+x 68
+y 260
+
+end1
+x 142
+y 178
+http://localhost:8888/opscenter/index.html
